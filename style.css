@@ -2,41 +2,57 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0px;
     min-height: 100vh;
+    display: flex;
+    flex: wrap;
     
 }
 
 .header {
-    height: 250px;
+    height: 350px;
     padding-top: 5px;
     background:#1F2937;
     color: white;
     display:flex;
-    flex: 1;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
     padding-left: 180px;
+    padding-right: 180px;
     font-weight: 800;
     box-sizing: border-box;
     width: 100%;
-    border: solid #5B6DCD
+    
 
 }
+
+.logo {
+    font-size: 45%;
+    margin: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 20%;
+    
+}
+
 
 ul {
     list-style: none;
     display: flex;
     flex: 1;
     flex-direction: row;
-    column-gap: 20px;
-    padding: 0px;
-    margin: 5px;
-    padding-right: 180px;
-    justify-content: space-between;
+    column-gap: 5px;
+    padding-left: 200px;
+    margin: 10px;
+    margin-right: 180px;
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    font-weight: 100;
+    font-weight:bold;
+    box-sizing: border-box;
+    width: 95%;
     
+    align-items: flex-end;
+    justify-content: space-around;
+    font-size: 70%;
 
 }
 
@@ -45,6 +61,35 @@ a {
     text-decoration: none;
 }
 
-.intro  {
-    
+button {
+
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bolder;
 }
+
+.intro  {
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 41%;
+    
+    font-size: 80%;
+    margin-right: 0px;
+}
+
+.header-image img{
+    margin: auto;
+    width: 10%;
+    box-sizing: border-box;
+    width: 450px;
+    
+    flex-wrap: wrap;
+    margin-right: 65px;
+}
+
+p {
+    font-size: 75%;
+}
+

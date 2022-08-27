@@ -1,9 +1,11 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0px;
-    min-height: 100vh;
+    padding: 0px;
+    align-items: center;
     display: flex;
-    flex: wrap;
+    flex-flow: column wrap;
+    justify-content: center;
     
 }
 
@@ -91,5 +93,91 @@ button {
 
 p {
     font-size: 75%;
+}
+
+.main {
+
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content:space-between;
+    background-color: white;
+    color: #1F2937;
+    flex-flow: column wrap;
+}
+
+.main-content {
+
+    padding: 12px;
+    flex-wrap: wrap;
+}
+
+.main-content h2 {
+    
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.squares {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    flex-flow: row wrap;
+}
+
+.square {
+
+    max-width: 150px;
+    color: #1F2937;
+
+}
+
+.content-img {
+
+    width: 140px;
+    height: 140px;
+    border: 3px solid #1F2937;
+    border-radius: 20px;
+}
+
+.quote {
+
+    background-color: rgb(197, 190, 190);
+    background-size:cover;
+    padding:10px 25%;
+    font-size: 36px;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    
+}
+
+
+.author  {
+
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 40px;
+
+}
+
+.sign-up-block {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: blue;
+    margin: 100px auto;
+    flex-flow: row wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+
 }
 

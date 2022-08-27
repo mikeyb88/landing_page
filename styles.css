@@ -10,3 +10,13 @@ body {
     background: red;
     color: white;
 }
+
+.main {
+    display: flex;
+    align-self:stretch;
+    align-items:center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #f9faf8;
+    flex-flow: column wrap;
+}

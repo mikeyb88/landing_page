@@ -29,7 +29,7 @@ body {
     padding: 0px;
     width: 20%;
     box-sizing: border-box;
-    margin-left: 130px;
+    margin-left: 170px;
     
 }
 
@@ -48,7 +48,7 @@ ul {
     align-items: center;
     font-size: 70%;
     
-    margin-right: 180px;
+    margin-right: 200px;
 }
 
 a {
@@ -94,7 +94,7 @@ button {
 
 .header-image img{
     
-    max-width: 420px;
+    max-width: 475px;
     flex-direction: row-reverse;
     flex-flow: column wrap;
     margin-right: 135px;

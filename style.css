@@ -203,3 +203,13 @@ button {
 
     font-size: 14px;
 }
+
+footer {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 24px 0px;
+    align-self: stretch;
+    background-color: #1F2937;
+    color: white;
+}

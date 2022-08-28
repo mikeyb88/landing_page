@@ -2,37 +2,34 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0px;
     padding: 0px;
-    align-items: center;
+    
+    
+    
+    
+}
+
+.headertop {
+
     display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    
-}
-
-.header {
-    height: 350px;
-    padding-top: 5px;
-    background:#1F2937;
+    align-self: stretch;
+    align-items: center;
+    justify-content:space-between;
     color: white;
-    display:flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding-left: 180px;
-    padding-right: 180px;
+    background-color: #1F2937;
     
-    box-sizing: border-box;
-    width: 100%;
     
 
 }
+
+
 
 .logo {
     font-size: 45%;
-    margin: 5px;
+    margin: 20px;
     padding: 0px;
-    box-sizing: border-box;
     width: 20%;
+    box-sizing: border-box;
+    margin-left: 130px;
     
 }
 
@@ -40,22 +37,18 @@ body {
 ul {
     list-style: none;
     display: flex;
-    flex: 1;
     flex-direction: row;
-    column-gap: 5px;
-    padding-left: 200px;
-    margin: 10px;
-    margin-right: 180px;
+    column-gap: 50px;
+    margin: 0px;
+    max-width: 400px;
     font-family: 'Courier New', Courier, monospace;
     color: white;
     font-weight:bold;
     box-sizing: border-box;
-    width: 95%;
-    
-    align-items: flex-end;
-    justify-content: space-around;
+    align-items: center;
     font-size: 70%;
-
+    
+    margin-right: 180px;
 }
 
 a {
@@ -77,26 +70,42 @@ button {
 }
 
 .intro  {
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    width: 41%;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content:space-around;
+    color: white;
+    background-color: #1F2937;
+    padding: 20px;
     
-    font-size: 80%;
-    margin-right: 0px;
+    
 }
 
-.header-image img{
-    margin: auto;
-    width: 10%;
-    box-sizing: border-box;
-    width: 450px;
+.sign-up-top {
+
+    display: flex; 
+    flex-direction: column;
+    max-width: 400px;
+    margin-left: 100px;
+
+}
     
-    flex-wrap: wrap;
-    margin-right: 65px;
+
+
+.header-image img{
+    
+    max-width: 420px;
+    flex-direction: row-reverse;
+    flex-flow: column wrap;
+    margin-right: 135px;
+    margin-left: -20px;
+
 }
 
 .intro p {
     font-size: 12px;
+    margin-top: -20px;
+    margin-bottom: 10px;
 }
 
 .main {
@@ -199,6 +208,10 @@ button {
     padding: 5px;
 }
 
+button:hover {
+    background-color: #f9faf8;
+    color:rgb(42, 126, 236);
+}
 .text p {
 
     font-size: 14px;
@@ -210,6 +223,6 @@ footer {
     text-align: center;
     padding: 24px 0px;
     align-self: stretch;
-    background-color: #1F2937;
+    background-color:#1F2937;
     color: white;
 }
